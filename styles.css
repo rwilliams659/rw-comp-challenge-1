@@ -1,0 +1,29 @@
+* {
+  font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+}
+
+header {
+  background-color: #C96E12;
+}
+
+.username {
+  color: white;
+}
+
+nav {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  color: white;
+}
+
+.logo {
+
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
