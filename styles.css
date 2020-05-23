@@ -74,7 +74,9 @@ a {
 }
 
 .beer-card {
-    border: 1px solid black;
+    /* border: 1px solid gray; */
+    /* box-shadow: 5px 5px 5px gray; */
+    box-shadow: 0 0 5px gray;
 }
 
 .beer-card1 {
