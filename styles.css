@@ -4,9 +4,13 @@
 
 /* -----Body, Header & Navigation----- */
 body {
-  padding-right: 150px;
-  padding-left: 150px;
+  margin-right: 150px;
+  margin-left: 150px;
+  padding-right: 15px;
+  padding-left: 15px;
   padding-bottom: 50px;
+  background-color: #F0E2E7;
+  border: 1px solid gray;
 }
 
 header {
@@ -79,33 +83,39 @@ a {
     box-shadow: 0 0 5px gray;
 }
 
-.beer-card1 {
-}
-
-.beer-card2 {
-}
-
-.beer-card3 {
-}
-
-.beer-card4 {
-}
-
-.beer-card5 {
-}
-
-.beer-card6 {
-}
-
-.beer-card7 {
-}
-
-.beer-card8 {
-}
-
-.card-background {
-  background-image: image();
+.card-background-image {
+  height: 33.3%;
   display: grid;
   grid-template-columns: 3;
   grid-template-rows: 2;
+}
+
+.beer-icon {
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 1;
+  padding: 10px;
+}
+
+.ratebeer-score {
+  grid-row: 1 / span 1;
+  grid-column: 3 / span 1;
+}
+
+h4 {
+  color: white;
+  font-size: 14px;
+  font-family: Impact, Charcoal, sans-sans-serif;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  text-align: right;
+  padding-right: 15px;
+  margin: 10px;
+}
+
+h2 {
+  color: white;
+  font-size: 24px;
+  text-align: right;
+  padding-right: 25px;
+  margin: 5px;
 }
