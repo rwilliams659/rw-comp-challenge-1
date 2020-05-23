@@ -6,14 +6,13 @@
 body {
   margin-right: 150px;
   margin-left: 150px;
-  border: 1px solid gray;
 }
 
 .body-container {
   /* padding-right: 15px;
   padding-left: 15px; */
   padding-bottom: 50px;
-  background-image: linear-gradient(to bottom, #fff1eb 0%, #ace0f9 100%);
+  /* background-image: linear-gradient(to bottom, #fff1eb 0%, #ace0f9 100%); */
 }
 
 header {
