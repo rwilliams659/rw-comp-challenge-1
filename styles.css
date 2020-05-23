@@ -2,11 +2,23 @@
   font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
 }
 
+/* -----Body, Header & Navigation----- */
+body {
+  padding-right: 150px;
+  padding-left: 150px;
+  padding-bottom: 50px;
+}
+
 header {
   background-color: #C96E12;
-  text-align: right;
-  color: white;
   padding: 0.25%;
+}
+
+.username {
+  color: white;
+  font-size: 12px;
+  padding-right: 10px;
+  text-align: right;
 }
 
 
@@ -21,9 +33,15 @@ ul {
   display: flex;
 }
 
-@media screen and (max-width: 600px) {
-  header {
-    text-align: left; 
+.nav-item {
+  align-self: flex-end;
+  margin: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .username {
+    text-align: left;
+    padding-left: 15px;
   }
   ul {
     flex-direction: column;
@@ -31,26 +49,32 @@ ul {
   #logo {
     display: none;
   }
+  body {
+    padding: 10px;
+  }
 }
-
-.nav-item {
-  align-self: flex-end;
-  margin: 10px;
-}
-
 
 a {
   color: #ffffff;
   text-decoration: none;
 }
 
+/* ----- Card Grid Section ----- */
+
 .title.intro {
 }
 
 .all-beer-cards {
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-rows: minmax(370px, auto);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
 }
 
 .beer-card {
+    border: 1px solid black;
 }
 
 .beer-card1 {
