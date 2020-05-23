@@ -15,10 +15,22 @@ nav {
   justify-content: space-between;
 }
 
-ol {
+ul {
   list-style: none;
   color: white;
   display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    text-align: left; 
+  }
+  ul {
+    flex-direction: column;
+  }
+  #logo {
+    display: none;
+  }
 }
 
 .nav-item {
@@ -26,9 +38,6 @@ ol {
   margin: 10px;
 }
 
-.logo {
-
-}
 
 a {
   color: #ffffff;
