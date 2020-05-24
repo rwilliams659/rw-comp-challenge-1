@@ -121,7 +121,7 @@ h1 {
 
 .card-background-image {
   /* height: 33.3%; */
-  height: 120px;
+  height: 9em;
   display: grid;
   grid-template-columns: 3;
   grid-template-rows: 2;
@@ -139,32 +139,6 @@ h1 {
   grid-column: 3 / span 1;
 }
 
-h2,
-h3,
-h4,
-h5 {
-  color: white;
-}
-
-h2 {
-  font-size: 18px;
-}
-
-h3 {
-  font-size: 24px;
-}
-
-h4 {
-  font-size: 12px;
-  font-family: Impact, Charcoal, sans-sans-serif;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-}
-
-h5 {
-  font-size: 10px;
-}
-
 .score-title {
   text-align: right;
   padding-right: 15px;
@@ -175,22 +149,64 @@ h5 {
   text-align: right;
   padding-right: 25px;
   margin: 5px;
+  font-size: 24px;
 }
 
 .card-content {
   padding: 15px;
 }
 
+h2,
+h3,
+h4,
+h5 {
+  color: white;
+}
+
+.beer-name {
+  font-size: 18px;
+  text-shadow: 1px 1px gray;
+  margin-bottom: -10px;
+}
+
+.brewery-name {
+  font-size: 12px;
+  color: #c0c2c4;
+  margin-bottom: 30px;
+}
+
 .link-container {
   background-color: #2a49b8;
   padding: 5px;
   border-radius: 6%;
-}
-
-.card-link {
   font-size: 12px;
+  padding: 10px;
+  margin-bottom: 30px;
 }
 
-.link-container {
+h4 {
+  font-size: 12px;
+  font-family: Impact, Charcoal, sans-sans-serif;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px gray;
+}
 
+.style-title {
+  margin-bottom: -10px;
+}
+
+.style-name {
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+
+.ratings-title {
+  margin-bottom: -25px;
+}
+
+.number-ratings {
+  font-size: 30px;
+  color: #C96E12;
+  margin-bottom: 10px;
 }
