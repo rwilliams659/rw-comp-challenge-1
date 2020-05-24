@@ -44,6 +44,13 @@ ul {
   ul {
     flex-direction: column;
   }
+
+  .nav-item {
+    align-self: flex-start;
+    margin: 5px;
+    margin-left: -20px;
+  }
+
   #logo {
     display: none;
   }
