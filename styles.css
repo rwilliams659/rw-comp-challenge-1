@@ -104,7 +104,6 @@ h1 {
   }
 }
 
-/* make max width 1500 to fix spacing issue */
 @media screen and (min-width: 1220px) {
   .all-beer-cards {
     margin: 10px;
