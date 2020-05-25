@@ -4,7 +4,7 @@
 
 /* -----Body, Header & Navigation----- */
 body {
-  padding-bottom: 50px;
+  padding-bottom: 4em;
 }
 
 header {
@@ -29,10 +29,10 @@ ul {
   list-style: none;
   color: white;
   display: flex;
+  align-items: flex-end;
 }
 
 .nav-item {
-  align-self: flex-end;
   margin: 10px;
 }
 
@@ -53,11 +53,6 @@ ul {
 
   #logo {
     display: none;
-  }
-  body {
-    padding: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
   }
 }
 
@@ -135,7 +130,7 @@ h1 {
 .beer-icon {
   grid-row: 1 / span 1;
   grid-column: 1 / span 1;
-  padding: 10px;
+  padding: .8em;
 }
 
 .ratebeer-score {
@@ -145,19 +140,19 @@ h1 {
 
 .score-title {
   text-align: right;
-  padding-right: 15px;
-  margin: 10px;
+  padding-right: 1.2em;
+  margin: .8em;
 }
 
 .score-number {
   text-align: right;
-  padding-right: 25px;
-  margin: 5px;
+  padding-right: 1em;
+  margin: .3em;
   font-size: 24px;
 }
 
 .card-content {
-  padding: 15px;
+  padding: .9em;
 }
 
 h2,
@@ -170,48 +165,47 @@ h5 {
 .beer-name {
   font-size: 18px;
   text-shadow: 1px 1px gray;
-  margin-bottom: -10px;
+  margin-bottom: -.7em;
 }
 
 .brewery-name {
   font-size: 12px;
   color: #c0c2c4;
-  margin-bottom: 30px;
+  margin-bottom: 2.5em;
 }
 
 .link-container {
   background-color: #2a49b8;
   opacity: 0.9;
-  padding: 5px;
-  border-radius: 6%;
+  border-radius: 3%;
   font-size: 12px;
-  padding: 10px;
-  margin-bottom: 30px;
+  padding: .9em;
+  margin-bottom: 2.5em;
 }
 
 h4 {
   font-size: 12px;
   font-family: Impact, Charcoal, sans-sans-serif;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.8px;
   text-transform: uppercase;
   text-shadow: 1px 1px gray;
 }
 
 .style-title {
-  margin-bottom: -10px;
+  margin-bottom: -.8em;
 }
 
 .style-name {
   font-size: 18px;
-  padding-bottom: 15px;
+  padding-bottom: .9em;
 }
 
 .ratings-title {
-  margin-bottom: -25px;
+  margin-bottom: -2.1em;
 }
 
 .number-ratings {
   font-size: 30px;
   color: #C96E12;
-  margin-bottom: 10px;
+  margin-bottom: .3em;
 }
