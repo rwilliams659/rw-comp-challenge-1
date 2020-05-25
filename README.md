@@ -21,10 +21,11 @@ Additionally, within each card, I also used CSS grid for the top third of the ca
 
 ## My Project ##
 
-#### Static Screenshot of Site ####
+### Static Screenshot of Site ###
 
 ![Ratebeer Top 8 Beers Site](readme-assets/rw-static-comp.png)
 
-#### Responsiveness in Action ####
+
+### Responsiveness in Action ###
 
 ![Site responsiveness demo](readme-assets/rw-static-comp-responsive.gif)
