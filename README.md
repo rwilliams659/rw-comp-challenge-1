@@ -6,7 +6,8 @@ This static comp challenge is the first Turing HTML/CSS challenge, created to he
 
 ## Project Website Reference ##
 
-![comp challenge website template] (readme-assets/static-comp-challenge.jpg)
+
+![comp challenge website template](readme-assets/static-comp-challenge.jpg)
 
 ## My Approach to The Project ##
 
@@ -20,6 +21,10 @@ Additionally, within each card, I also used CSS grid for the top third of the ca
 
 ## My Project ##
 
-![Ratebeer Top 8 Beers Site] (readme-assets/rw-static-comp.png)
+#### Static Screenshot of Site ####
 
-![Site responsiveness demo] (readme-assets/rw-static-comp-responsive.gif)
+![Ratebeer Top 8 Beers Site](readme-assets/rw-static-comp.png)
+
+#### Responsiveness in Action ####
+
+![Site responsiveness demo](readme-assets/rw-static-comp-responsive.gif)
