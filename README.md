@@ -22,4 +22,4 @@ Additionally, within each card, I also used CSS grid for the top third of the ca
 
 ![Ratebeer Top 8 Beers Site] (readme-assets/rw-static-comp.png)
 
-![Site responsiveness demo] (rw-static-comp-responsive.gif)
+![Site responsiveness demo] (readme-assets/rw-static-comp-responsive.gif)
